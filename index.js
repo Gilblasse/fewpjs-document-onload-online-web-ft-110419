@@ -1,6 +1,7 @@
 // Your code goes here
 document.addEventListener("DOMContentLoaded", function() {
-  console.log("The DOM has loaded");
+  let pTag = document.getElementById("text");
+  pTag.innerText = "This is reallyy co"
 });
  
 console.log(
