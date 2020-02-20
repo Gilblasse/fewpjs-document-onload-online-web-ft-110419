@@ -2,6 +2,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   let pTag = document.getElementById("text");
   pTag.innerText = "This is really cool!"
+    console.log("Triggered after")
 });
  
 console.log(
